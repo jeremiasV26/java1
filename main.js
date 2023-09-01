@@ -49,6 +49,36 @@
 // repe(" Hola", 10);
 
 // 6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array.
+// function equipos() {
+//   const programas = ["Belgrano", "Talleres", "Instituto"];
+//   for (let i = 0; i < 3; i++) {
+//     console.log(programas[i]);
+//   }
+// }
+// equipos();
 
 // 7 - Crear una función que reciba un array con 10 números e imprima por consola todos los valores de ese array, menos el que se encuentre en la 5ta posición del mismo. Ayuda: Recuerden que el primer índice de un array es "0".
+
+// function exepto5(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i !== 4) {
+//       console.log(arr[i]);
+//     }
+//   }
+// }
+// const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// exepto5(numeros);
+
 // 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
+
+// function wadu(numero, multiplicador) {
+//   for (let i = 0; i < numero.length; i++) {
+//     const resultado = numero[i] * multiplicador;
+//     console.log(resultado);
+//   }
+// }
+
+// const numero = [2, 4, 6, 8];
+// const multiplicador = [5];
+
+// wadu(numero, multiplicador);
